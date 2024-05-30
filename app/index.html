@@ -1,0 +1,44 @@
+<!--
+  File: index.html
+  Author: Kiss Cintia
+  Copyright: 2024, Kiss Cintia
+  Group: Szoft I-2-N
+  Date: 2024-05-30
+  Github: https://github.com/KissCintia/
+  Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>átlószámítás</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Téglalap átlója</h1>
+      <div class="form">
+        <div class="input">
+          <label for="aSide" class="form-label">A oldal</label>
+          <input type="text" id="aSide" class="form-control">
+        </div>
+        <div class="input">
+          <label for="bSide" class="form-label">B oldal</label>
+          <input type="text" id="bSide" class="form-control">
+        </div>
+        <div class="mt-2">
+          <button id="calcButton" class="btn btn-info">Számít</button>
+        </div>
+        <div class="input">
+          <label for="perimeter" class="form-label">Téglalap átló</label>
+          <input type="text" id="diagonal" class="form-control">
+        </div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
